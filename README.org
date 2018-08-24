@@ -7,8 +7,8 @@
 #+LANGUAGE:  en
 #+OPTIONS:   H:4 num:nil toc:2 p:t
 
-#+HTML_LINK_HOME: http://www.google.com
-#+HTML_LINK_UP: http://www.bing.com
+#+HTML_LINK_HOME: https://www.google.com
+#+HTML_LINK_UP: https://www.bing.com
 
 #+SETUPFILE: ~/.dotfiles/org/theme-readtheorg.setup
 
@@ -19,7 +19,7 @@
 | *Framework*   | Org mode 9                                          |
 | *Bug tracker* | https://github.com/fniessen/refcard-org-mode/issues |
 | *Source*      | https://github.com/fniessen/refcard-org-mode        |
-# | *Documentation* | http://refcard-org-mode.readthedocs.org/            |
+# | *Documentation* | https://refcard-org-mode.readthedocs.org/            |
 
 * Summary
 
@@ -43,7 +43,7 @@ articles, LaTeX documents, books, Web pages, Beamer slide decks and much more!
 This is a cheat sheet for *Org mode 8* (because of some markup syntax changes
 since Org mode 7), using [[https://github.com/fniessen/org-html-themes][ReadTheOrg CSS]].
 
-Reading through all the [[http://orgmode.org/org.pdf][documentation]] is highly recommended, but for the truly
+Reading through all the [[https://orgmode.org/org.pdf][documentation]] is highly recommended, but for the truly
 impatient, following are some quick steps to get started.
 #+end_abstract
 
@@ -51,9 +51,9 @@ impatient, following are some quick steps to get started.
 # This paper talks about...
 # #+end_abstract
 
-# See http://asciidoctor.org/docs/user-manual/#the-big-picture
+# See https://asciidoctor.org/docs/user-manual/#the-big-picture
 
-# See http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html.
+# See https://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html.
 
 * Reference card
 
@@ -530,8 +530,8 @@ The links are delimited by double square brackets.
 ** External links
 
 #+begin_src org
-See http://www.pirilampo.org (automatic!) and the
-[[http://orgmode.org/][Org mode Web site]].
+See https://www.pirilampo.org (automatic!) and the
+[[https://orgmode.org/][Org mode Web site]].
 #+end_src
 
 *** Relative links
@@ -551,7 +551,7 @@ See http://www.pirilampo.org (automatic!) and the
 To get image links, put a link to a file in the description.
 
 #+begin_src org
-Clicking on the image [[http://orgmode.org/][file:images/org-mode-unicorn.png]]
+Clicking on the image [[https://orgmode.org/][file:images/org-mode-unicorn.png]]
 leads to the Org mode home page.
 #+end_src
 
@@ -673,7 +673,7 @@ Videos can't be added directly.
 Though, you can add an image with a link to the video like this:
 
 #+begin_src org
-[[http://www.youtube.com/watch?v=DnSGSiXYuOk][file:../bigblow.png]]
+[[https://www.youtube.com/watch?v=DnSGSiXYuOk][file:../bigblow.png]]
 #+end_src
 
 * Admonitions
@@ -809,15 +809,15 @@ Danger
 
 #+begin_src org
 ,#+begin_seealso
-- [[http://en.wikipedia.org/wiki/Apple][Apples]] ::
-     A kind of [[http://en.wikipedia.org/wiki/Fruit][fruit]].
+- [[https://en.wikipedia.org/wiki/Apple][Apples]] ::
+     A kind of [[https://en.wikipedia.org/wiki/Fruit][fruit]].
 ,#+end_seealso
 #+end_src
 
 ** Todo admonition
 
-# See example at http://docs.ckan.org/en/latest/contributing/python.html
-# or http://wsgiservice.readthedocs.org/en/latest/todo.html
+# See example at https://docs.ckan.org/en/latest/contributing/python.html
+# or https://wsgiservice.readthedocs.org/en/latest/todo.html
 
 Simple box ("inline task"):
 
@@ -981,7 +981,7 @@ Typically used for quoting passages of an email message:
 >
 > Has the deadline for the report been moved too?
 
-Yes.  And chekout http://www.doodle.com/ for rescheduling the meeting.
+Yes.  And chekout https://www.doodle.com/ for rescheduling the meeting.
 
 In the text body,
    indentation is
@@ -1164,7 +1164,7 @@ int main(int arc, char **argv)
 (setq tab-width 4)
 #+end_src
 
-# See http://sphinxcontrib-emacs.readthedocs.org/en/latest/guide/domain.html
+# See https://sphinxcontrib-emacs.readthedocs.org/en/latest/guide/domain.html
 
 #+begin_note
 You need =htmlize.el= in your ~load-path~, for the HTML export.
@@ -1357,7 +1357,7 @@ File inclusion, through INCLUDE keywords, is an *export-only feature*.
 
 ** Raw HTML
 
-# http://johnmacfarlane.net/pandoc/README.html
+# https://johnmacfarlane.net/pandoc/README.html
 
 You can include raw HTML in your Org documents and it will get kept as HTML
 when it's exported.
@@ -1597,7 +1597,7 @@ The bibliography...
 - Eric Steven Raymond. The Art of Unix Programming. Addison-Wesley. ISBN
   0-13-142901-9.
 
-# http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+# https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
 
 ** Glossary
 
@@ -1645,10 +1645,10 @@ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
-this program. If not, see http://www.gnu.org/licenses/.
+this program. If not, see https://www.gnu.org/licenses/.
 
-#+html: <a href="http://opensource.org/licenses/GPL-3.0">
-#+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
+#+html: <a href="https://opensource.org/licenses/GPL-3.0">
+#+html:   <img src="https://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
 #+html: </a>
 #+html: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VCVAS6KPDQ4JC&lc=BE&item_number=refcard%2dorg%2dmode&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">
 #+html:   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="btn_donate_LG.gif" />
